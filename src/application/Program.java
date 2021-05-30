@@ -14,8 +14,9 @@ public class Program {
 		System.out.println(order);
 		
 //convertendo String para enum		
+		//estanciar
 		OrderStatus os1 = OrderStatus.DELIVERED;
-		
+		//estanciar
 		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
 		
 		System.out.println(os1);
